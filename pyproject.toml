@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "date-utils"
+version = "2024.1.0"
+dependencies = [
+]
+requires-python = ">=3.6"
+
+authors = [
+  {name = "prakhar gupta", email = "prakhar.gupta@tui.co.uk"}
+]
+maintainers = [
+  {name = "prakhar gupta", email = "prakhar.gupta@tui.co.uk"}
+]
+description = "developed under TUI"
+readme = "README.md"
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[tool.setuptools.package-data]
+smarttest_utils = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
